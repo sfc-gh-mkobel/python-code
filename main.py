@@ -6,9 +6,6 @@ import os
 import sys
 
 def get_logger():
-    """
-    Get a logger for local logging.
-    """
     logger = logging.getLogger("job-tutorial")
     logger.setLevel(logging.DEBUG)
     handler = logging.StreamHandler(sys.stdout)
@@ -24,9 +21,6 @@ def get_logger():
 def run_job():
     logger = get_logger()
     logger.debug("Start")
-     """
-     Main body of this job.
-     """
     logger.debug("finished")
 
 
