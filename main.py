@@ -6,7 +6,7 @@ import os
 import sys
 
 def get_logger():
-    logger = logging.getLogger("job-tutorial")
+    logger = logging.getLogger("git-main-file")
     logger.setLevel(logging.DEBUG)
     handler = logging.StreamHandler(sys.stdout)
     handler.setLevel(logging.DEBUG)
@@ -20,8 +20,8 @@ def get_logger():
 
 def run_job():
     logger = get_logger()
-    logger.debug("Start")
-    logger.debug("finished")
+    logger.debug("##################### Start")
+    logger.debug("##################### finished")
 
 
 if __name__ == "__main__":
